@@ -10,7 +10,7 @@
 <?php //loop for every for cells
 	for($cell=0;$cell<3;$cell++)
 		 { 	if($item==$numberofmovies){break;} ?>
-		 <td><a href= "<?php echo site_url("movies/details_id/".$movies[$item]['Movie_Id'] ) ;?> "> 
+		 <td><a href= "<?php echo site_url("viewers/movies/details_id/".$movies[$item]['Movie_Id'] ) ;?> "> 
 		     <?php echo $movies[$item]['Title']; $item++; } }?>
 		     </a>
 	     </td>

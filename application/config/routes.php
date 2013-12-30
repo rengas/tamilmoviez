@@ -37,13 +37,14 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-$route['movies'] = "movies/view";
-$route['movies/alphabet'] = "movies/alphabet";
-$route['year'] = "year/view";
-$route['year/choosen']="year/choosen";
-$route['default_controller'] = "movies/view";
+$route['movies'] = "viewers/movies/view";
+$route['admin']="admin/main";
+$route['movies/alphabet'] = "viewers/movies/alphabet";
+$route['year'] = "viewers/year/view";
+$route['year/choosen']="viewers/year/choosen";
+$route['default_controller'] = "viewers/movies/view";
 $route['404_override'] = '';
 
 
 /* End of file routes.php */
-/* Location: ./application/config/routes.php */
+/* Location: ./application/config/routes.php *
